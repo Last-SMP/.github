@@ -10,23 +10,23 @@
 
 Все наши сервисы связаны между собой. Игровая статистика моментально отображается на сайте, донат покупается через Telegram-бота, а Discord-бот управляет модерацией и тикетами, синхронизируясь с игровыми событиями.
 
-### 🗡️ 1. [LastSMP-Core](https://github.com/Last-SMP/LastSMP-Core)
+### 🗡️ 1. [LastSMP-Server]([https://github.com/Last-SMP/LastSMP-Core](https://github.com/Last-SMP/lsmp-server-system))
 **Сердце проекта.** Полностью самописная сеть серверов Minecraft (1.21).
 * **Стек:** Kotlin, Java 21, Paper API, Velocity API, HikariCP (MySQL).
 * **Модули:** `last-velocity` (прокси), `lsmp-auth` (авторизация), `lsmp-lobby` (хаб), `lsmp-api` (ядро и экономика), `lsmp-survival` (режим SMP).
 * **Фишки:** 3D-косметика, уникальные артефакты, глобальный лор и расширяющийся бордер мира, самописные ИИ-зомби.
 
-### 🌐 2. [LastSMP-Web](https://github.com/Last-SMP/LastSMP-Web)
+### 🌐 2. [LastSMP-Web]()
 **Лицо проекта в сети.** Официальный сайт и Личный кабинет игрока (last-smp.net).
 * **Стек:** *(???)*
 * **Фишки:** ???
 
-### 🤖 3. [LastSMP-Discord](https://github.com/Last-SMP/LastSMP-Discord)
+### 🤖 3. [LastSMP-Discord]([https://github.com/Last-SMP/LastSMP-Discord](https://github.com/Last-SMP/lsmp-discord-bot))
 **Управление комьюнити.** Многофункциональный бот для нашего Discord-сервера.
 * **Стек:** TypeScript, Node.js, Discord.js v14, SQLite.
 * **Фишки:** Система тикетов (модальные окна, приватные каналы), система репортов, музыкальный плеер, расширенная модерация (баны, муты) и конструктор постов через UI.
 
-### 📱 4. [LastSMP-Telegram](https://github.com/Last-SMP/LastSMP-Telegram)
+### 📱 4. [LastSMP-Telegram]()
 ???
 * **Стек:** *(???)*
 * **Фишки:** Прием платежей через новую валюту **Telegram Stars**, автоматическая генерация одноразовых ключей для активации подписки в личном кабинете на сайте.
