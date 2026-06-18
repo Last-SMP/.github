@@ -10,7 +10,7 @@
 
 Все наши сервисы связаны между собой. Игровая статистика моментально отображается на сайте, донат покупается через Telegram-бота, а Discord-бот управляет модерацией и тикетами, синхронизируясь с игровыми событиями.
 
-### 🗡️ 1. [LastSMP-Server]([https://github.com/Last-SMP/LastSMP-Core](https://github.com/Last-SMP/lsmp-server-system))
+### 🗡️ 1. [LastSMP-Server]([[https://github.com/Last-SMP/LastSMP-Core](https://github.com/Last-SMP/lsmp-server-system)])
 **Сердце проекта.** Полностью самописная сеть серверов Minecraft (1.21).
 * **Стек:** Kotlin, Java 21, Paper API, Velocity API, HikariCP (MySQL).
 * **Модули:** `last-velocity` (прокси), `lsmp-auth` (авторизация), `lsmp-lobby` (хаб), `lsmp-api` (ядро и экономика), `lsmp-survival` (режим SMP).
