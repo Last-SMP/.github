@@ -17,9 +17,13 @@
 * **Фишки:** 3D-косметика, уникальные артефакты, глобальный лор и расширяющийся бордер мира, самописные ИИ-зомби.
 
 ### 🌐 2. LastSMP-Web
-**Лицо проекта в сети.** Официальный сайт и Личный кабинет игрока (last-smp.net).
-* **Стек:** *(???)*
-* **Фишки:** ???
+**Лицо проекта в сети.** Официальный сайт и Личный кабинет игрока.
+* **Стек:** Next.js (App Router), React, CSS Modules.
+* **Фишки:** 
+  * Интерактивный личный кабинет с системой сессий и динамическим распределением привилегий (от `player` до `admin`)[cite: 6].
+  * Безопасная система активации одноразовых кодов для получения статуса SMP+ из Telegram[cite: 5].
+  * Интегрированные страницы с публичным банлистом, правилами сервера и модулем управления составом администрации (Staff)[cite: 4, 8].
+  * Встроенный функционал "Demo Admin" для тестирования ролей и доступов[cite: 7].
 
 ### 🤖 3. LastSMP-Discord
 **Управление комьюнити.** Многофункциональный бот для нашего Discord-сервера.
@@ -27,9 +31,12 @@
 * **Фишки:** Система тикетов (модальные окна, приватные каналы), система репортов, музыкальный плеер, расширенная модерация (баны, муты) и конструктор постов через UI.
 
 ### 📱 4. LastSMP-Telegram
-???
-* **Стек:** *(???)*
-* **Фишки:** Прием платежей через новую валюту **Telegram Stars**, автоматическая генерация одноразовых ключей для активации подписки в личном кабинете на сайте.
+**Монетизация и донат.** Бот для продажи доната на сервере.
+* **Стек:** Kotlin, Ktor (HTTP API), Exposed, SQLite, Telegram Bot API.
+* **Фишки:** 
+  * Продажа подписки SMP+ и пакетов изумрудов за внутреннюю валюту Telegram Stars.
+  * Автоматическая генерация уникальных одноразовых кодов активации после оплаты.
+  * Встроенный HTTP API для бесшовной интеграции с сайтом и безопасного погашения кодов в личном кабинете.
 
 ---
 
@@ -39,7 +46,8 @@
 |--------------------|------------|-------------------|
 | ![Kotlin](https://img.shields.io/badge/Kotlin-0095D5?style=flat-square&logo=kotlin&logoColor=white) | ![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=flat-square&logo=typescript&logoColor=white) | ![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white) |
 | ![Java 21](https://img.shields.io/badge/Java_21-ED8B00?style=flat-square&logo=openjdk&logoColor=white) | ![Node.js](https://img.shields.io/badge/Node.js-43853D?style=flat-square&logo=node.js&logoColor=white) | ![SQLite](https://img.shields.io/badge/SQLite-003B57?style=flat-square&logo=sqlite&logoColor=white) |
-| ![Paper](https://img.shields.io/badge/PaperMC-000000?style=flat-square&logo=paper&logoColor=white) | *(???)* | ![Linux](https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=black) |
+| ![Paper](https://img.shields.io/badge/PaperMC-000000?style=flat-square&logo=paper&logoColor=white) | ![Next.js](https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=next.js&logoColor=white) | ![Linux](https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=black) |
+| | ![React](https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB) | ![Vercel](https://img.shields.io/badge/Vercel-000000?style=flat-square&logo=vercel&logoColor=white) |
 
 ---
 
@@ -54,6 +62,6 @@
 
 Мы всегда открыты для баг-репортов, предложений и новых игроков.
 
-- 🎮 **IP Сервера:** `???` (Версия 1.21+)
-- 🌐 **Сайт:** ???
-- 💬 **Discord:** ???
+- 🎮 **IP Сервера:** `play.lastsmp.net` (Версия 1.21+)[cite: 4]
+- 🌐 **Сайт:** last-smp.net
+- 💬 **Discord:** https://discord.gg/4guyD8mHVk[cite: 4]
